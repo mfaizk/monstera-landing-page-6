@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #fff;
+}
+
+.navFirst {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: magenta; */
+}
+#navbarMonstera {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#navMid {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 60vw;
+  justify-content: space-evenly;
+  list-style: none;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#navMid div {
+  margin: 20px;
+  font-size: 20px;
+}
+#navMid li:hover {
+  text-decoration: underline;
+}
+
+#navEnd {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-around;
+}
+
+#midWhole {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 100px;
+}
+#midWholePart1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+#midWholePart13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 150px;
+
+  /* background-color: orange; */
+}
+.text {
+  width: 200px;
+  /* background-color: blue; */
+}
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.midWholePart13Parts h4 {
+  font-family: "Allerta", sans-serif;
+}
+
+#midWholePart11 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 700px;
+  /* background-color: blue; */
+  margin-left: 150px;
+}
+
+#monstera {
+  font-family: "Allerta", sans-serif;
+  font-size: 100px;
+  display: inline;
+}
+
+.monstera-desc h1 {
+  font-size: 1rem;
+  font-weight: 200;
+  width: 50vw;
+}
+#midWholePart12 {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 150px;
+  align-items: center;
+  /* margin-left: 150px; */
+}
+#midWholePart121 {
+  background-color: #466d50;
+  width: 300px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  color: #fff;
+}
+[src="./photos/greaterThan.svg"] {
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+
+#imgMain {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  .navFirst {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  #navbarMonstera {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #navMid {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+  }
+
+  #navMid div:hover {
+    text-decoration: underline;
+  }
+
+  #navEnd {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  #midWhole {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+  }
+  #midWholePart13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    width: 100vw;
+    height: 400px;
+    margin-left: 0px;
+  }
+
+  #monstera {
+    font-family: "Allerta", sans-serif;
+    font-size: 3rem;
+    display: block;
+
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100vw;
+  }
+  .monstera-desc {
+    display: flex;
+    width: 100vw;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .monstera-desc h1 {
+    font-size: 1rem;
+    font-weight: 200;
+    width: 80vw;
+  }
+  #midWholePart11 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    margin-left: 0;
+  }
+  #midWholePart12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #midWholePart121 {
+    background-color: #466d50;
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #fff;
+  }
+  #midWholePart121 h1 {
+    font-size: 1rem;
+  }
+  #midWhole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  #imgMain {
+    display: none;
+  }
+}
